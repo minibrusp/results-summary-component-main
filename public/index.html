@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./styles.css">
+
+
+</head>
+<body class="font-body">
+  <main class="md:flex md:justify-center md:items-center md:min-h-screen">
+    <div class="md:flex md:shadow-xl">
+
+      <header class="bg-gradient-to-t from-gradient-light-royalblue to-gradient-light-slateblue rounded-br-[1.7rem] rounded-bl-[1.7rem] text-center px-[48px] pt-[24px] pb-[40px] md:rounded-[32px] md:px-[54px] md:pt-[38px] md:pb-[46px] md:relative md:w-[368px] md:z-[2]">
+        <h1 class="text-lg text-neutral-light-lavender font-semibold pb-4 md:text-[24px] md:leading-[31px] md:mb-[35px]">Your Result</h1>
+        <div class="inline-block mb-8 md:h-[200px] md:mb-7 md:w-[200px]">
+          <p class="text-neutral-light-lavender bg-gradient-to-t from-gradient-persian-blue to-gradient-violet-blue font-bold h-[140px] w-[140px] p-8 rounded-full flex justify-center items-center flex-col md:h-[200px] md:mb-7 md:w-[200px]">
+            <span class="text-neutral-white text-[3.7rem] leading-[4.2rem] md:text-7xl">76</span>
+            <span class="opacity-50 md:text-lg md:leading-6">of 100</span> 
+          </p>
+        </div>
+        <div class="">
+          <p class="text-neutral-white text-2xl font-bold mb-2">Great</p>
+          <p class="text-neutral-light-lavender leading-5 max-w-[18rem] inline-block">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </header>
+      
+      <section class="px-[1.875rem] text-neutral-dark-gray-blue bg-neutral-white m-auto max-w-[500px] md:bg-neutral-white md:rounded-tl-none md:rounded-bl-none md:rounded-tr-[32px] md:rounded-br-[32px] md:m-0 md:ml-[-50px] md:max-w-none md:pt-[38px] md:pr-10 md:pb-[46px] md:pl-[90px] md:relative md:w-[418px] md:z-[1]">
+
+        <h2 class="text-lg font-bold leading-6 mt-6 mb-6 md:text-2xl md:leading-8 md:m-0 md:mb-7">Summary</h2>
+  
+        <div class="card bg-primary-lightred-blurred">
+          <div class="cardheading">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#F55" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"/></svg>
+            <h3 class="text-primary-lightred-regular md:text-lg md:leading-[23px]">Reaction</h3>
+          </div>
+          <p class="font-bold md:text-lg md:leading-[23px]">80 <span class="opacity-50">/ 100</span></p>
+        </div>
+  
+        <div class="card bg-primary-orangeyyellow-blurred">
+          <div class="cardheading">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#FFB21E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M5.833 11.667a2.5 2.5 0 1 0 .834 4.858"/><path stroke="#FFB21E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M3.553 13.004a3.333 3.333 0 0 1-.728-5.53m.025-.067a2.083 2.083 0 0 1 2.983-2.824m.199.054A2.083 2.083 0 1 1 10 3.75v12.917a1.667 1.667 0 0 1-3.333 0M10 5.833a2.5 2.5 0 0 0 2.5 2.5m1.667 3.334a2.5 2.5 0 1 1-.834 4.858"/><path stroke="#FFB21E" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M16.447 13.004a3.334 3.334 0 0 0 .728-5.53m-.025-.067a2.083 2.083 0 0 0-2.983-2.824M10 3.75a2.085 2.085 0 0 1 2.538-2.033 2.084 2.084 0 0 1 1.43 2.92m-.635 12.03a1.667 1.667 0 0 1-3.333 0"/></svg>
+            <h3 class="text-primary-orangeyyellow-regular md:text-lg md:leading-[23px]">Memory</h3>
+          </div>
+          <p class="font-bold md:text-lg md:leading-[23px]">92 <span class="opacity-50">/ 100</span></p>
+        </div>
+  
+  
+        <div class="card bg-primary-greenteal-blurred">
+          <div class="cardheading">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#00BB8F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M7.5 10h5M10 18.333A8.333 8.333 0 1 0 1.667 10c0 1.518.406 2.942 1.115 4.167l-.699 3.75 3.75-.699A8.295 8.295 0 0 0 10 18.333Z"/></svg>
+            <h3 class="text-primary-greenteal-regular md:text-lg md:leading-[23px]">Verbal</h3>
+          </div>
+          <p class="font-bold md:text-lg md:leading-[23px]">61 <span class="opacity-50">/ 100</span></p>
+        </div>
+  
+        <div class="card bg-primary-cobalblue-blurred">
+          <div class="cardheading">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#1125D6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10 11.667a1.667 1.667 0 1 0 0-3.334 1.667 1.667 0 0 0 0 3.334Z"/><path stroke="#1125D6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M17.5 10c-1.574 2.492-4.402 5-7.5 5s-5.926-2.508-7.5-5C4.416 7.632 6.66 5 10 5s5.584 2.632 7.5 5Z"/></svg>
+            <h3 class="text-primary-cobalblue-regular md:text-lg md:leading-[23px]">Visual</h3>
+          </div>
+          <p class="font-bold md:text-lg md:leading-[23px]">72 <span class="opacity-50">/ 100</span></p>
+        </div>
+  
+        <button class="text-neutral-white  block text-lg text-center w-full px-4 py-3 rounded-[2rem] bg-gradient-to-t from-neutral-dark-gray-blue to-neutral-dark-gray-blue hover:from-gradient-light-royalblue hover:to-gradient-light-slateblue md:font-bold">Continue</button>
+  
+      </section>
+
+
+
+    </div>
+  </main>
+
+
+  <footer class="text-neutral-dark-gray-blue text-center p-4 md:absolute md:bottom-0 md:w-full">
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-primary-lightred-regular hover:text-primary-orangeyyellow-regular
+        ">Frontend Mentor</a>. 
+        Coded by <a href="#" class="text-gradient-violet-blue font-bold hover:text-primary-greenteal-regular">XIII</a>.
+      </p>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
